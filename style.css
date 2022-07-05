@@ -1,0 +1,28 @@
+h1
+{font-family:"Segoe UI",Arial,sans-serif;
+font-weight:400;
+color: white;
+}
+h2{font-style: italic;
+    color: white;}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 5px;
+  }
+  .grid-item {
+    background-color: #f3e221;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .intro{
+    background-image: url("images/taco.jpg");
+    background-repeat: no-repeat;
+    height: 566px; width:850px;
+  }
+body {
+    background-color: coral;
+    }
+    
